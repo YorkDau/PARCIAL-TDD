@@ -23,5 +23,11 @@ class ProductoSimple extends Producto
     public function Entrada(int $cantidad): string
     {
         if ($cantidad <= 0) return 'Cantidad de productos que intenta registrar es incorrecta, bebe ser mayor que cero';
+        if($cantidad>0){
+            $cantidadCalculada =$cantidad + $this->getCantidad();
+            $this->setCantidad($cantidadCalculada);
+            new Entrada($cantidad,$this->getNombre(),$this->getPrecio(),$this->getCosto());
+            return sprintf("Se ha agregado %s unidades al producto %s en el stock hay:%s",$cantidad,$this->getNombre(),$this->getCantidad());
+        }
     }
 }
