@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8b9d8d5-7df4-4dc8-84d4-3a6667a7cdf0" name="Default Changelist" comment="" />
+    <list default="true" id="a8b9d8d5-7df4-4dc8-84d4-3a6667a7cdf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/test/ProductoSimpleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/ProductoSimpleTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +12,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -110,11 +115,24 @@
       <workItem from="1602181464377" duration="386000" />
       <workItem from="1602194516132" duration="857000" />
       <workItem from="1602195679837" duration="2424000" />
+      <workItem from="1602199176456" duration="456000" />
     </task>
+    <task id="LOCAL-00001" summary="8/10/2020/ casodePrueba1">
+      <created>1602199263597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602199263597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="8/10/2020/ casodePrueba1" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/10/2020/ casodePrueba1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1602198514496">
@@ -125,6 +143,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601523938702" />
+    <state x="394" y="0" key="CommitChangelistDialog2" timestamp="1602199262592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="394" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602199262592" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602181859773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -141,13 +163,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602198240884" />
+    <state x="352" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602199288778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602199288778" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601515827618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601515827618" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1601523675309">
+    <state x="623" y="225" width="1009" height="1470" key="search.everywhere.popup" timestamp="1602199376275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601523675309" />
+    <state x="623" y="225" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602199376275" />
   </component>
 </project>
