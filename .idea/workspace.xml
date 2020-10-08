@@ -73,6 +73,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -108,7 +109,7 @@
       <workItem from="1601529011114" duration="2173000" />
       <workItem from="1602181464377" duration="386000" />
       <workItem from="1602194516132" duration="857000" />
-      <workItem from="1602195679837" duration="756000" />
+      <workItem from="1602195679837" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -116,10 +117,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1601523224311">
+    <state x="765" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1602198514496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601523224311" />
+    <state x="765" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602198514496" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601523938702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -128,14 +129,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602181859773" />
-    <state x="740" y="248" key="NewPhpClassDialog" timestamp="1602195878218">
+    <state x="740" y="214" key="NewPhpClassDialog" timestamp="1602198583229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="248" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602195878218" />
+    <state x="740" y="214" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602198583229" />
     <state x="795" y="443" key="NewPhpFileDialog" timestamp="1601523311101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601523311101" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602198240884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602198240884" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601515827618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

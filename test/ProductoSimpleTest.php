@@ -3,8 +3,9 @@
 
 namespace test;
 
-
+use App\Inventario\Domain\ProductoSimple;
 use PHPUnit\Framework\TestCase;
+
 
 class ProductoSimpleTest extends TestCase
 {
@@ -23,9 +24,9 @@ class ProductoSimpleTest extends TestCase
      * @test
      */
 
-    public function test_Cantidad_Entrada_Negativa_Cero ():void {
-        $producto = new ProductoSimple('gaseosa litro',5000,2,5000,'VENTA DIRECTA');
-        $resultado = $producto->Entrada('0');
+    public function testCantidadEntradaNegativaCero ():void {
+        $producto = new ProductoSimple('gaseosa litro',5000,5000,2,'VENTA DIRECTA');
+        $resultado = $producto->Entrada(0);
         $this->assertEquals('Cantidad de productos que intenta registrar es incorrecta, bebe ser mayor que cero',$resultado);
     }
 }
