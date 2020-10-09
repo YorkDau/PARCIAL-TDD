@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b9d8d5-7df4-4dc8-84d4-3a6667a7cdf0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Inventario/Domain/Salida.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Inventario/Domain/ProductoSimple.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Inventario/Domain/ProductoSimple.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ProductoSimpleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/ProductoSimpleTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +119,7 @@
       <workItem from="1602181464377" duration="386000" />
       <workItem from="1602194516132" duration="857000" />
       <workItem from="1602195679837" duration="2424000" />
-      <workItem from="1602199176456" duration="2728000" />
+      <workItem from="1602199176456" duration="3535000" />
     </task>
     <task id="LOCAL-00001" summary="8/10/2020/ casodePrueba1">
       <created>1602199263597</created>
@@ -152,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602201610606</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="8/10/2020/ casodePrueba4">
+      <created>1602202000213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602202000213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,26 +177,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="8/10/2020/ casodePrueba4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1602200378748">
+    <state x="765" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1602202437281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602200378748" />
+    <state x="765" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602202437281" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601523938702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601523938702" />
-    <state x="394" y="0" key="CommitChangelistDialog2" timestamp="1602201609563">
+    <state x="394" y="0" key="CommitChangelistDialog2" timestamp="1602201999599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="394" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602201609563" />
+    <state x="394" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602201999599" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602181859773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602181859773" />
-    <state x="740" y="214" key="NewPhpClassDialog" timestamp="1602199967031">
+    <state x="740" y="214" key="NewPhpClassDialog" timestamp="1602202369998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="214" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602199967031" />
+    <state x="740" y="214" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602202369998" />
     <state x="795" y="443" key="NewPhpFileDialog" timestamp="1601523311101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,10 +205,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602198240884" />
-    <state x="352" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602201650955">
+    <state x="352" y="115" key="Vcs.Push.Dialog.v2" timestamp="1602202007864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602201650955" />
+    <state x="352" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602202007864" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601515827618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

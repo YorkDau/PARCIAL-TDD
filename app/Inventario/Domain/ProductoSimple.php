@@ -31,9 +31,14 @@ class ProductoSimple extends Producto
         }
     }
 
-public function Salida(int $cantidad)
-{
-    if ($cantidad <= 0) return 'Cantidad Incorrecta, esta debe ser mayor a cero';
-}
+    public function Salida(int $cantidad)
+    {
+        if ($cantidad <= 0) return 'Cantidad Incorrecta, esta debe ser mayor a cero';
+        if ($cantidad > 0) {
+         $this->setCantidad($this->getCantidad()-$cantidad);
+         new Salida($cantidad,$this->getNombre(),$this->getCosto(),$this->getPrecio());
+            return sprintf("Se ha retirado con exito %s unidad del producto %s queda en el stock:%s", $cantidad, $this->getNombre(), $this->getCantidad());
 
+        }
+    }
 }

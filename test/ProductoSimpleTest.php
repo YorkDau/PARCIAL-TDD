@@ -87,14 +87,14 @@ class ProductoSimpleTest extends TestCase
      * Cuando
      * se registre una salidad con el valor de la cantidad de : “1”,
      * Entonces
-     * El sistema de informacion registrará la salida y mostrará el mensaje : “Se ha retirado con exito 1 unidad de del producto gaseosa Litro queda en el stock 1;
+     * El sistema de informacion registrará la salida y mostrará el mensaje : “Se ha retirado con exito 1 unidad del producto gaseosa Litro queda en el stock:1;
      * @test
      */
     public function testCantidadCorrectaSalida(): void
     {
         $producto = new ProductoSimple('gaseosa litro', 5000, 5000, 2, 'VENTA DIRECTA');
-        $resultado = $producto->Salida(2);
-        $this->assertEquals('Se ha retirado con exito 1 unidad de del producto gaseosa Litro queda en el stock 1', $resultado);
+        $resultado = $producto->Salida(1);
+        $this->assertEquals('Se ha retirado con exito 1 unidad del producto gaseosa litro queda en el stock:1', $resultado);
 
     }
 }
