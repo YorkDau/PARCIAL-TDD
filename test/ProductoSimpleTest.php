@@ -69,9 +69,32 @@ class ProductoSimpleTest extends TestCase
      */
     public function testCantidadSalidaNegativaCero(): void
     {
-        $producto = new ProductoSimple('gaseosa litro',5000,5000,2,'VENTA DIRECTA');
+        $producto = new ProductoSimple('gaseosa litro', 5000, 5000, 2, 'VENTA DIRECTA');
         $resultado = $producto->Salida(0);
-        $this->assertEquals('Cantidad Incorrecta, esta debe ser mayor a cero',$resultado);
+        $this->assertEquals('Cantidad Incorrecta, esta debe ser mayor a cero', $resultado);
+    }
+
+    /**
+     *
+     * Escenario:  Salidas correcta de los productos simples
+     * HU 1. COMO USUARIO QUIERO REGISTRAR LA SALIDA PRODUCTOS
+     * Criterio de Aceptación:
+     * La cantidad de la de debe ser mayor a 0.
+     * En caso de un producto sencillo la cantidad de la salida se le disminuirá a la cantidad existente del producto.
+     * Cada salida debe registrar el costo del producto y el precio de la venta
+     * Dado
+     * El usuario tiene un  un producto registrado con el: nombre:”gaseosa litro”, precio:”5000”, cantidad:”2”, costo:”5000”, tipo:”VENTA DIRECTA”.
+     * Cuando
+     * se registre una salidad con el valor de la cantidad de : “1”,
+     * Entonces
+     * El sistema de informacion registrará la salida y mostrará el mensaje : “Se ha retirado con exito 1 unidad de del producto gaseosa Litro queda en el stock 1;
+     * @test
+     */
+    public function testCantidadCorrectaSalida(): void
+    {
+        $producto = new ProductoSimple('gaseosa litro', 5000, 5000, 2, 'VENTA DIRECTA');
+        $resultado = $producto->Salida(2);
+        $this->assertEquals('Se ha retirado con exito 1 unidad de del producto gaseosa Litro queda en el stock 1', $resultado);
 
     }
 }
