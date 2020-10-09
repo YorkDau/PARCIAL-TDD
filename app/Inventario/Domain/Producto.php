@@ -60,5 +60,5 @@ abstract class Producto
         $this->cantidad = $cantidad;
     }
 
-
+    abstract  function Salida(int $cantidad);
 }

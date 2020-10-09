@@ -71,7 +71,7 @@ class ProductoSimpleTest extends TestCase
     {
         $producto = new ProductoSimple('gaseosa litro',5000,5000,2,'VENTA DIRECTA');
         $resultado = $producto->Salida(0);
-        $this->assertEquals('Cantidad  Incorrecta, esta debe ser mayor a cero',$resultado);
+        $this->assertEquals('Cantidad Incorrecta, esta debe ser mayor a cero',$resultado);
 
     }
 }

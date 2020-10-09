@@ -31,5 +31,9 @@ class ProductoSimple extends Producto
         }
     }
 
+public function Salida(int $cantidad)
+{
+    if ($cantidad <= 0) return 'Cantidad Incorrecta, esta debe ser mayor a cero';
+}
 
 }
