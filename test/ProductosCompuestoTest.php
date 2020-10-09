@@ -3,6 +3,7 @@
 
 namespace test;
 
+use App\Inventario\Domain\ProductoCompuesto;
 use App\Inventario\Domain\ProductoSimple;
 use PHPUnit\Framework\TestCase;
 
@@ -41,9 +42,9 @@ class ProductosCompuestoTest extends TestCase
         foreach ($producto as $item) {
             $productosRegistrados[] = ['ingrediente' => $item, 'cantidad'=>1];
         }
-        $productoCompuesto = new ProductoCompuesto('perro sencillo',5000,0,$productosRegistrados[]);
-        $resultado = $producto->Salida(1);
-        $this->assertEquals('Se ha retirado con exito 2 perro sencillo costo unitario 3000, precio unitario 5000. En el estock quedan: Salchicha 4,lamina de queso 1, pan perro 1 ', $resultado);
+        $productoCompuesto = new ProductoCompuesto('perro sencillo',0,5000,0,$productosRegistrados);
+        $resultado = $productoCompuesto->Salida(2);
+        $this->assertEquals('Se ha retirado con exito 2 perro sencillo costo unitario 3000 precio unitario 5000. En el estock quedan: salchicha 4, lamina de queso 1, pan perro 1', $resultado);
 
     }
 }
